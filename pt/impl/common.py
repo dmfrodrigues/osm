@@ -40,6 +40,8 @@ class DiffDict:
         else:
             self.data = data
             self.kind = "old"
+        if "tags" not in self.data:
+            self.data["tags"] = {}
         self.old_tags = {}
 
     def diff(self):
