@@ -1,0 +1,1 @@
+https://www.edp.pt/servicesapi/StoresAndAgents/GetStoresAndAgents/
